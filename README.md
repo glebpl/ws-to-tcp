@@ -14,6 +14,14 @@ npm install -g ws-to-tcp
 ws-to-tcp --from 8000 --to 9000
 ```
 
+## Client Side
+need convert ArrayBuff to string data.
+
+```
+const a2s = require('arraybuffer-to-string')
+ws.onmessage = e => console.log(a2s(e.data));
+```
+
 ## License
 
 MIT
