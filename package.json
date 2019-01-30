@@ -12,6 +12,8 @@
     "standard": "^10.0.3"
   },
   "scripts": {
+    "start": "node ./index.js",
+    "start1": "node ./index.js --from 5999 --to 53462 --host 10.78.19.26",
     "test": "standard"
   },
   "bin": {
