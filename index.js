@@ -14,7 +14,7 @@ const argv = minimist(process.argv.slice(2), {
 });
 
 if (!argv.from || !argv.to) {
-    console.error('Usage: ws-to-tcp --from [ws-port] --to [tcp-port] --host [tcp-host]');
+    console.error('Usage: npm run start --from [ws-port] --to [tcp-port] --host [tcp-host]');
     process.exit(1);
 }
 

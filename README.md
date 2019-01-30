@@ -11,7 +11,7 @@ npm install -g ws-to-tcp
 ```
 # will proxy websockets from 8000
 # to tcp sockets on 10.78.15.96:9000
-ws-to-tcp --from 8000 --to 9000 --host 10.78.15.96
+npm run start --from 8000 --to 9000 --host 10.78.15.96
 ```
 
 ## Client Side
